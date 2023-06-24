@@ -1,8 +1,11 @@
+const Student = require("../model/student");
+
 const getAllStudents = async (req, res) => {
-  res.status(200).json({ msg: "I am getAllStudents" });
+  const myData = await Student.find({});
+  res.status(200).json({ myData });
 };
 
-const getAllStudentsTest = async (req, res) => {
+const getAllStudentsTest = async (_req, res) => {
   res.status(200).json({ msg: "I am getAllStudentsTest" });
 };
 

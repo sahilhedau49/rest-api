@@ -1,0 +1,36 @@
+[
+  {
+    "name": "sahil",
+    "rollno": 56,
+    "section": "cse",
+    "cgpa": 9.28,
+    "hobbies": ["cricket", "fifa mobile"]
+  },
+  {
+    "name": "smit",
+    "rollno": 64,
+    "section": "cse",
+    "cgpa": 9.34,
+    "hobbies": ["coding"]
+  },
+  {
+    "name": "samrat",
+    "rollno": 57,
+    "section": "cse",
+    "cgpa": 9.1,
+    "hobbies": ["cricket", "basket ball"]
+  },
+  {
+    "name": "shreyash",
+    "rollno": 62,
+    "section": "cse",
+    "cgpa": 9.4,
+    "hobbies": ["study", "vlogging"]
+  },
+  {
+    "name": "raju",
+    "rollno": 69,
+    "section": "cse",
+    "cgpa": 8
+  }
+]
