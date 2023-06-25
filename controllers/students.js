@@ -29,13 +29,13 @@ const getAllStudents = async (req, res) => {
   let skip = (page - 1) * limit;
   apiData = apiData.skip(skip).limit(limit); // skip method --> to skip specified number of data - code syntax (.skip(3)) - url syntax (?page=2&limit=3)
 
-  const myData = await apiData;
-  res.status(200).json({ myData });
+  const StudentsData = await apiData;
+  res.status(200).json({ StudentsData });
 };
 
 const getAllStudentsTest = async (req, res) => {
-  const myData = await Student.find(req.query);
-  res.status(200).json(myData);
+  const StudentsData = await Student.find(req.query);
+  res.status(200).json(StudentsData);
 };
 
 module.exports = { getAllStudents, getAllStudentsTest };
