@@ -7,6 +7,7 @@ const StudentJSON = require("./students.json");
 const start = async () => {
   try {
     await connectDB(process.env.MONGODB_URL);
+    await Student.deleteMany();
     await Student.create(StudentJSON);
     console.log("Success");
   } catch (error) {
